@@ -1,5 +1,7 @@
 # MySQLConnector
 
-Data Access. Acceso a Datos.
+Data Access. Test of connection between NetBeans with the JDBC connector and MySQL.
 
-Netbeans connection test with MySQL. Prueba de Conexión Netbeans con MySQL.
+Acceso a Datos. Test de conexión entre NetBeans con el conector JDBC y MySQL.
+
+-----
