@@ -1,6 +1,7 @@
 package Connector;
-//@author Domingo 2013_02_13
-
+/*
+*  @author Domingo 2023_02_20
+*/
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
