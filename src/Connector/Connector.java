@@ -7,6 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 public class Connector {
 
@@ -24,9 +25,9 @@ public class Connector {
         try {
             Class.forName(driver);
             cx = DriverManager.getConnection(url + db, user, password);
-            System.out.println("Successful Connection to the Database " + db);
+            JOptionPane.showMessageDialog(null, "Successful Connection to the Database " + db);
         } catch (SQLException | ClassNotFoundException ex) {
-            System.out.println("Failed Connection to the Database " + db);
+            JOptionPane.showMessageDialog(null, "Failed Connection to the Database " + db);
             Logger.getLogger(Connection.class.getName()).log(Level.SEVERE,
                     null, ex);
         }
